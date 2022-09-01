@@ -5,7 +5,6 @@
  * 平方センチメールなどの単位は無視していいものとします。
  */
 export const calcTriangleArea = (base: number, height: number): number => {
-  // TODO
-  // 下記のreturnは消して、自分の関数を作ってください。
-  return 0;
+  const area = (base * height) / 2;
+  return area;
 };
